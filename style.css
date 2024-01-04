@@ -1,0 +1,104 @@
+
+@font-face {
+  font-family: 'PSVBranding-BoldItalic';
+  src: url('./assets/fonts/PSVBranding-BoldItalic.otf') format('opentype');
+  }
+  
+body {
+  margin: 0; 
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 100%;
+opacity: 0.5;
+}
+
+
+.section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#container {
+  background-color: #FD7DB1;
+  position: relative;
+  display: flex;
+  flex-direction: grid;
+  align-items: end;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  position: relative;
+  display: inline-flexbox;
+  padding: 0.5rem 1rem;
+  width: 50px;
+  margin: 5px; 
+  z-index: 2;
+  background-color: #FD7DB1;
+  color: white;
+  border-color: white;
+  border-radius: 10%;
+}
+
+#timer {
+  position: absolute;
+  top: 5%; 
+  left: 50%;
+  transform: translateX(-50%); 
+  color: white;
+  padding: 0.5%;
+  border-radius: 5%;
+  font-weight: 200;
+  font-size: 25px;
+  z-index: 2;
+}
+
+#competition{
+  position: absolute;
+  top: 0; 
+  left: 50%;
+  transform: translateX(-50%); 
+  color: white;
+  padding: 0.5%;
+  border-radius: 5%;
+  font-weight: 200;
+  font-size: 25px;
+  z-index: 2;
+}
+
+#header {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 10%;
+  background-color: #F75D9C;
+  padding: 10px; 
+  text-align: center; 
+  opacity: 0.8;
+  z-index: 1;
+}
+
+#footer {
+  position: fixed; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  height: 5%;
+  background-color: #F75D9C;
+  padding: 10px; 
+  text-align: center; 
+  opacity: 0.8;
+  z-index: 1;
+}

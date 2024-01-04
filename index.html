@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="loadPage()">
+  <div id="container">
+    <div id="header"></div>
+    <button onclick=" handleSections()"> ● </button>
+    <button onclick=" handleSections()"> ● </button>
+    <div id="scoreboard" class="section">
+      <div id="timer"></div>
+      <img src="./assets/SecScorBoard.jpg" alt="futbol"> 
+    </div>
+    <div id="competition"></div>
+    <div id="versus" class="section">
+      <img src="./assets/SecVersus.jpg" alt="futbol"> 
+    </div>
+    <div id="footer"></div>
+  </div>
+  <script src="node_modules/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
